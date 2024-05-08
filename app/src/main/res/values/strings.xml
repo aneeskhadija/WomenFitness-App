@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">women work out</string>
+
+
+    <!--AdMob testing Id-->
+
+    <!--<string name="AdMob_App_ID">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="AdMob_BannerAd_ID">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="AdMob_InterstitialAd_ID">ca-app-pub-3940256099942544/1033173712</string>-->
+
+    <!--AdMob real Id-->
+
+    <string name="AdMob_App_ID">ca-app-pub-7846062786229673~1245249709</string>
+    <string name="AdMob_BannerAd_ID">ca-app-pub-7846062786229673/6362200239</string>
+    <string name="AdMob_InterstitialAd_ID">ca-app-pub-7846062786229673/5049118563</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Female Home Workout</string>
+    <string name="nav_header_subtitle">mail@exceeditsolution.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+    <string name="sett_reminder_header">Set Reminder</string>
+    <string name="sett_reminder_label">Remind Me</string>
+    <string name="sett_reminder_desc">We will remind you daily basis</string>
+    <string name="sett_reminder_time_label">Set Reminder Time</string>
+    <string name="sett_reminder_time_content">8 : 00 PM</string>
+
+
+    <!-- setting activity-->
+
+    <string name="pref_header_about">About</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="summary_about">We are a team of like-minded people, specialized in development of Android App Development creating new trends across the app space. Glad to Help in anyway!</string>
+    <string name="app_version">1.0</string>
+    <string name="summary_support">Got any queries? We are happy to help!</string>
+    <string name="summary_privacy">Read our privacy policy</string>
+    <string name="summary_invite_friends">Share with Your Friends</string>
+    <string name="summary_reminder">Set reminder to reminde workout every day</string>
+    <string name="summary_restart_progress">Reset all your progress</string>
+    <string name="summary_delete_alldata">Complete resets all settings</string>
+    <string name="title_version">Version</string>
+    <string name="title_send_feedback">Send Feedback</string>
+    <string name="title_send_invite">Invite Friends</string>
+    <string name="title_privacy">Privacy Policy</string>
+    <string name="title_set_reminder">Set Reminder</string>
+    <string name="title_delete_data">Delete All Data</string>
+    <string name="title_restart_progress">Restart Progress</string>
+    <string name="title_Rate_us">Rate Us</string>
+    <string name="summary_rate_us">Rate Us on Play Store</string>
+    <string name="key_send_feedback">key_send_feedback</string>
+    <string name="key_rate_us">key_rate_us</string>
+    <string name="key_set_reminder">key_set_reminder</string>
+    <string name="key_restart_progress">key_restart_progress</string>
+    <string name="key_delete_alldata">key_delete_alldata</string>
+    <string name="key_invite_friends">key_invite_friends</string>
+    <string name="key_privacy">key_privacy</string>
+    <string name="choose_email_client">Choose email client</string>
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+    <string name="url_faq">https://web.whatsapp.com/</string>
+
+
+    <string name="beauty_title1">This exercise is good for dropping eyelids, eye bags and puffiness. Here are some easy steps to do it:\n
+Step 1: Press both middle fingers together at the inner corner of the eyebrows, then with the index fingers, apply pressure to the outer corners of the eyebrows.\n
+Step 2: Look to the ceiling, and raise the lower eyelids upwards to make a strong squint, and then relax.\n
+Step 3: Repeat six more times and finish by squeezing eyes shut tightly for 10 seconds.</string>
+
+    <string name="beauty_title2">You might look like you’re a pouting fish, but this face exercise helps tone your cheeks and lips, and helps plump up the lower half of your face.\n
+Step 1: Suck in your cheeks until your lips form a figure-of-eight shape.\n
+Step 2: Hold this face yoga position for 10 seconds then release.\n
+Step 3: Repeat the exercise 20 times in about three minutes.</string>
+
+    <string name="beauty_title3">This exercise is good for cheek lines and sagging skin. Here are some easy steps to do it:
+Step 1: Hide the teeth with the lips to make an ‘O’ shape with the mouth.
+Step 2: Smile widely while keeping the teeth hidden and repeat six times.
+Step 3: Next, hold the smile shape while placing one index finger on the chin.
+        Then start to move the jaw up and down as the head tilts gently back. Relax and repeat twice more.</string>
+
+    <string name="beauty_title4">This exercise is good for horizontal forehead lines. Here are some easy steps to do it: \n
+Step 1: Place both hands on the forehead facing inwards and spread all of the fingers out between the eyebrows and hairline.\n
+Step 2: Gently sweep the fingers outwards across the forehead, applying light pressure to tighten the skin.\n
+Step 3: Relax and repeat 10 times.</string>
+
+    <string name="beauty_title5">This exercise is good for lines and loose skin on the neck. Here are some easy steps to do it:\n
+Step 1: Looking straight ahead, place the finger tips at the bottom of the neck and lightly stroke the skin downwards with the head tilted back.\n
+Step 2: Bring the head back down to the chest and repeat twice more.\n
+Step 3: Finally, jut the lower lip out as far as possible to pull the corners of the mouth down and place finger tips on the collarbone with the chin pointed upwards. Hold for four deep breaths.</string>
+
+    <string name="beauty_title6">his ancient Chinese method of healing and treating multiple ailments seems to have a solution even for wrinkles. Tiny acupuncture needles are inserted at different points to reinstate a healthy flow of energies.
+This causes the body’s fluids to flow freely and perform optimum functions. Facial acupuncture also enhances collagen production.
+Multiple sessions can enhance skin health and reduce fine lines, wrinkles, and skin folds.</string>
+
+    <string name="beauty_title7">Nothing can be more effective to ease out those fine lines appearing on the skin. As you sleep, the body goes into the restoration mode and, at the same time, secretes the human growth hormone (HGH). HGH plays a quintessential role in keeping your skin more elastic and less prone to wrinkles.
+If your body is deprived of rest, it results in an increase in the production of cortisol, which breaks down the skin cells, triggering wrinkle formation. Make sure you sleep on your back. Sleeping on your sides can cause wrinkles on that side to increase.</string>
+
+    <string name="beauty_title8">Yes, the sun is the most crucial factor that contributes to the generation of wrinkles. The harmful UV rays of the sun are extremely damaging for the skin and deplete it of its natural moisture.
+The weakened collagen fails to protect the skin from further damage. The risk of skin cancer also increases if you step out in the sun every day without any protection.
+So, do not forget to use an umbrella or a hat the next time you step out.</string>
+
+    <string name="beauty_title9">Apart from being hazardous to your health, smoking can also cause wrinkles. The carcinogens in cigarettes act as a toxic plastic bag around your pretty face, blocking and depriving it of oxygen.
+            This exaggerates the pace with which wrinkles appear on your skin. So, say goodbye to smoking.
+It may sound stereotyped, yet, you should quit alcohol as soon as you can. If you are unable to resist alcohol completely, you should set a limit on the intake.</string>
+
+    <string name="beauty_title10">De Stress : \n1. Lighten up, for stress can have adverse effects on your beauty. Stress, along with anxiety and tension, could make your skin thin and weaker and prone to wrinkles. Indulge in recreational activities so that stress does not get to you. Think about all the good things in your life – and smile. A smile will help you beat the stress and banish those wrinkles.
+2. Drink and Rinse : On an average, an adult is advised to drink at least 1 to 2 liters of water in a day. However, studies indicate that you should drink 5 to 6 liters of water in a day to keep your organs healthy. Drinking ample amount of water helps your body flush out toxic waste. A clean inside reflects on the body outside.\n
+3. Trim Those Bangs : Trimming those bangs if you are over 25 is a sure way to help reduce the appearance of wrinkles on your forehead. A quick trim will round up your face, accentuate your features, and reduce wrinkles. Try it! We are not kidding you on this one.\n
+4. Scarf Up : Non-radical issues, such as pollution, affect your skin the most. Use a scarf if you have to step out for long hours to protect your face from exposure to dust and pollution. Cleanse your skin with a mild face wash replenished with antioxidants for dirt, grime, and wrinkle-free skin.\n
+5. Soak In SPF : As mentioned above, extensive exposure to the sun damages the skin beyond repairable levels. Studies suggest that while vitamin D is a blessing to the skin, exposing yourself to the ultraviolet-rich sun rays for a long time does more harm than good. It accelerates skin aging, resulting in the early onset of wrinkles.\n
+6. It Can Be The Genes Sometimes : Strange, but true. Wrinkles can be the result of several genetic factors. In some families, people look aged in their mid-40s. On the contrary, in another family, the members might look young even in their 70s. Therefore, you should consider the genetic factor as far as wrinkles are concerned. However, it does not necessarily imply that genetically driven wrinkles cannot be removed. You can still get rid of them with proper skin care.\n
+</string>
+
+    <!--<string name="ad_banner">2629021960684688_2629022644017953</string>
+    <string name="ad_interstitials">2629021960684688_2629023264017891</string>-->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

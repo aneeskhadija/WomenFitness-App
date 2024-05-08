@@ -1,0 +1,478 @@
+[
+     {
+    "calories": 12.63,
+    "display": "Split Squat Left",
+    "id": 1,
+    "turns": "20",
+    "name": "split_squat_left1.gif",
+    "url": "JyMiO1iQzEY",
+    "info":"",
+    "howTo":"touches the floor, then push back up. Complete all your reps on one leg, then switch to the other. Keep your knees in line with your toes, especially on the front leg, and don't let the front knee stray past your foot as you lower.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Split Squat Right",
+    "id": 2,
+    "turns": "20",
+    "name": "split_squat_right.gif",
+    "url": "JyMiO1iQzEY",
+    "info":"",
+    "howTo":"touches the floor, then push back up. Complete all your reps on one leg, then switch to the other. Keep your knees in line with your toes, especially on the front leg, and don't let the front knee stray past your foot as you lower",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+     {
+    "calories": 12.05,
+    "display": "High Knees",
+    "id": 3,
+    "turns": "30",
+    "name": "high_knees.gif",
+    "url": "whHxoB-AFYQ",
+    "info":"High knees is a cardiovascular, warm up and a stretching exercise. It targets hip flexors,  hamstrings, quads and abs.",
+    "howTo":"This exercise is similar to running in place. However the only difference is that you try to raise your knees up high. Ideally your knees should come up to 90 degree angle to your body. Keep doing this alternate manner with your arms pumping back and forth.",
+    "correctForm":"Keep looking straight. Do not look down\nRaise your knees at 90 degrees angle to your body",
+    "tts": [
+      {
+        "text": "High Knees is a very good full body cardio vascular exercise very effective for fat burning",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+  {
+    "calories": 12.63,
+    "display": "Lunge Step-ups Left",
+    "id": 4,
+    "turns": "30",
+    "name": "lunge_step_up_left.gif",
+    "url": "KM6-6xTRpow",
+    "info":"",
+    "howTo":"Starting standing with your feet shoulder-width apart. Jump your left leg forward and your right leg back into a lunge, with both knees at 90 degrees. Jump up and switch your legs in midair so that you land in a lunge with your left leg in front. Continue jumping back and forth, pausing as little as possible.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Lunge Step-ups Right",
+    "id": 5,
+    "turns": "30",
+    "name": "lunge_step_up_right.gif",
+    "url": "KM6-6xTRpow",
+    "info":"",
+    "howTo":"Starting standing with your feet shoulder-width apart. Jump your right leg forward and your left leg back into a lunge, with both knees at 90 degrees. Jump up and switch your legs in midair so that you land in a lunge with your right leg in front. Continue jumping back and forth, pausing as little as possible.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Squats",
+    "id": 6,
+    "turns": "30",
+    "name": "squats1.gif",
+    "url": "aclHkVaku9U",
+    "info":"",
+    "howTo":"tand with your hands on your hips and feet a little wider than shoulder width apart. Then lower your body until your thighs are parallel to the floor. Your knees should be extended in the same direction as your tiptoes.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+    
+  {
+    "calories": 12.63,
+    "display": "Squat With Jumping Jacks",
+    "id": 7,
+    "turns": "20",
+    "name": "squat_jumping_jacks1.gif",
+    "url": "VZF5GWd7t9E",
+    "info":"",
+    "howTo":"position. ... Still engaging your core, jump your feet back together, and raise your arms overhead. That's one rep. Continue without pausing, until time or reps are complete",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+   {
+    "calories": 12.63,
+    "display": "Fire Hydrant Left",
+    "id": 8,
+    "turns": "30",
+    "name": "fire_hydrant_left.gif",
+    "url": "xctF7TdSlnY",
+    "info":"",
+    "howTo":"Start on all fours with your knees under your butt and your hands under your shoulders. Then lift your left leg to the side at a 90 degree angle.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Fire Hydrant Right",
+    "id": 9,
+    "turns": "30",
+    "name": "fire_hydrant_right.gif",
+    "url": "xctF7TdSlnY",
+    "info":"",
+    "howTo":"Start on all fours with your knees under your butt and your hands under your shoulders. Then lift your right leg to the side at a 90 degree angle.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+   {
+    "calories": 12.63,
+    "display": "Glute Bridge",
+    "id": 10,
+    "turns": "20",
+    "name": "glute_bridge.gif",
+    "url": "WowARnE-p0s",
+    "info":"",
+     "howTo":"Bend your knees and put your feet flat on the ground just close enough that you can graze your heels with your fingertips when you stretch your arms down by your side. Your feet should be about hip-width apart.Bend your elbows to 90 degrees so that only your upper arm is on the ground.Then drive up through your heels and upper back to lift your glutes off the ground. Drive your hips up as high as possible, squeezing the glutes hard. Keep your belly button drawn in so you don’t hyper extend your back Do not push backward off your heels. Make sure you are driving straight up and that your knees aren’t caving in.Squeeze your glutes for second or two at the top and lower all the way back down to the ground before repeating.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+  {
+    "calories": 12.63,
+    "display": "Donkey Kicks Left",
+    "id": 11,
+    "turns": "30",
+    "name": "donkey_kick_left.gif",
+    "url": "SJ1Xuz9D-ZQ",
+    "info":"",
+    "howTo":"Start on all fours with your knees under your butt and your hands under your shoulders. Then lift your left leg and squeeze your butt as much as you can. Go back to the start position and repeat the exercise.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Donkey Kicks Right",
+    "id": 12,
+    "turns": "30",
+    "name": "donkey_kick_right.gif",
+    "url": "SJ1Xuz9D-ZQ",
+    "info":"",
+    "howTo":"Start on all fours with your knees under your butt and your hands under your shoulders. Then lift your right leg and squeeze your butt as much as you can. Go back to the start position and repeat the exercise.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+   {
+    "id": 13,
+    "unit": 1,
+    "turns": "20",
+    "calories": 12.63,
+    "display": "Downward Upward Dog",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "name": "downward_upward_dog.gif",
+    "url": "1N5Di9l84Uc",
+    "info":"Downward upward dog is an exercise that primarily targets your back, hamstrings, chest and shoulders.",
+    "howTo":"Start in a plank position with shoulders on the top of your wrists, heels on top of the balls of feet and place feets at shoulders width apart. Lift your hips up without moving your hands or feet that makes downward facing dog pose. Then drive your hips forward towards the floor in a position with pelvis go down towards the floor. Place your hands underneath your shoulders with chest lift and maintain a comfortable height of torso that makes upward facing dog pose.",
+    "correctForm":"Maintain your wrists and elbows straight\nOpen your shoulders and remove all stress from neck",
+    "isOnline": false
+  },
+  {
+    "calories": 12.4287,
+    "display": "Plank Jacks",
+    "id": 14,
+    "turns": "20",
+    "name": "plank_jacks1.gif",
+    "url": "xcBz0TtHqWI",
+    "info":"Plank jack is cardio exercise that primarily targets abs and strengthens the upper body, lower body and core. This exercise also helps in cardiovascular endurance, accelerate the heart rate and burn more calories.",
+    "howTo":"Get settled in a pushup position and make your body into a straight line from head to toe. Press your toes forcefully into the floor and jump your feets outwards to spread your legs out without moving your torso. Then jump again with your feets and bring your legs back together. Make sure to keep your lower abs tight as you jack your feet.",
+    "correctForm":"Keep your body in straight position, don’t arch your back\nAs you move your legs outwards, don’t allow your torso to rotate.",
+    "tts": [
+      {
+        "text": "Plank Jacks targets core abs hip flexors and calf muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Hip Thrust",
+    "id": 15,
+    "turns": "20",
+    "name": "hip_thrust.gif",
+    "url": "MbgCVewqWio",
+    "info":"",
+    "howTo":"Sit on the floor facing away from a bench.Hold a pair of dumbbells at the crease in your hips, resting the weights on your body.Drive through your heels to lift your hips to the sky as your upper back stays in place on the bench.Pause and squeeze your glutes at the top",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+  {
+    "calories": 13.04,
+    "display": "Mountain Climbers",
+    "id": 16,
+    "turns": "30",
+    "name": "mountain_climbers1.gif",
+    "url": "WHtsUjji2YY",
+    "info":"Mountain climber is a very effective full body cardiovascular exercise. It is a compound exercise that targets the abs, lower back, hamstring,quads and triceps muscles.",
+    "howTo":"Start in a plank position and keep your body straight. Begin pulling your right knee towards your chest. Maintain plank position. Keep the tension in your abs by pulling them in. Try to bring your knee in as close to the chest as you comfortably can. Once right knee has been pulled in repeat this movement with the other leg. Pull the left knee in and push the right leg out. Alternate these movement by switching between knees in a continuous motion.",
+    "correctForm":"Your hips should not drop nor your back should arch\nPrevent your head from dropping",
+    "tts": [
+      {
+        "text": "Mountain Climbers is a full body exercise which targets shoulder chest and lower ab muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+   {
+    "calories": 12.63,
+    "display": "Elevated Split Squat Left",
+    "id": 17,
+    "turns": "18",
+    "name": "elevated_split_squat_left.gif",
+    "url": "fNJbRF_5P4A",
+    "info":"",
+     "howTo":"Begin by placing the top of your right foot on the bench, with your left leg straight. Bend your left knee, engage your right glute, and lower your pelvis toward the ground.Straighten your left leg and rise back up to the starting position. Complete three sets of 10-15 reps on each leg.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Elevated Split Squat Right",
+    "id": 18,
+    "turns": "18",
+    "name": "elevated_split_squat_right.gif",
+    "url": "fNJbRF_5P4A",
+    "info":"",
+    "howTo":"Begin by placing the top of your left foot on the bench, with your right leg straight. Bend your right knee, engage your left glute, and lower your pelvis toward the ground.Straighten your right leg and rise back up to the starting position. Complete three sets of 10-15 reps on each leg.",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+   {
+    "calories": 15.7456,
+    "display": "Scissors",
+    "id": 19,
+    "turns": "20",
+    "name": "scissors1.gif",
+    "url": "WoNCIBVLbgY",
+    "info":"Scissors is a core exercise that primarily targets abs, hip flexors and transverse abdominis that maintain your stability, posture and balance.",
+    "howTo":"Lying your back with both legs straight, put your hands underneath your lower back core for support. Raise your legs to 45 degree angle, spread them out to the side and then cross one leg over the other in the middle. Then bring them back to starting position completes one repetition.",
+    "correctForm":"Raise your chin towards the chest to engage your upper abs\nPress lower back over the floor",
+    "tts": [
+      {
+        "text": "Scissors strengthens core and lower abs muscles along with hip flexors and quadriceps",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+   {
+    "calories": 12.576,
+    "display": "Side Plank Left",
+    "id": 20,
+    "turns": "30 Sec",
+    "name": "side_plank_left1.gif",
+    "url": "N_s9em1xTqU",
+    "info":"Side plank is a core exercise that strengthen your shoulders, obliques and legs from hips to heels.",
+    "howTo":"Lie down on your side with feets together and place your forearm right under the shoulder. Raise your hips until your body is in a straight line from head to feet. Hold the position without dropping your hips down the floor.",
+    "correctForm":"Form your body a straight line from shoulders to ankles\nMake sure your hips are going up to the sky",
+    "tts": [
+      {
+        "text": "Side Plank very effectively targets obliques and hip abductor muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.576,
+    "display": "Side Plank Right",
+    "id": 21,
+    "turns": "30 Sec",
+    "name": "side_plank_right.gif",
+    "url": "6cRAFji80CQ",
+    "info":"Side plank is a core exercise that strengthen your shoulders, obliques and legs from hips to heels.",
+    "howTo":"Lie down on your side with feets together and place your forearm right under the shoulder. Raise your hips until your body is in a straight line from head to feet. Hold the position without dropping your hips down the floor.",
+    "correctForm":"Form your body a straight line from shoulders to ankles\nMake sure your hips are going up to the sky",
+    "tts": [
+      {
+        "text": "Side Plank very effectively targets obliques and hip abductor muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Hip Thrust",
+    "id": 22,
+    "turns": "30",
+    "name": "hip_thrust.gif",
+    "url": "MbgCVewqWio",
+    "info":"",
+    "howTo":"Sit on the floor facing away from a bench.Hold a pair of dumbbells at the crease in your hips, resting the weights on your body.Drive through your heels to lift your hips to the sky as your upper back stays in place on the bench.Pause and squeeze your glutes at the top",
+    "correctForm":"",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+  {
+    "calories": 13.04,
+    "display": "Mountain Climbers",
+    "id": 23,
+    "turns": "30",
+    "name": "mountain_climbers1.gif",
+    "url": "WHtsUjji2YY",
+    "info":"Mountain climber is a very effective full body cardiovascular exercise. It is a compound exercise that targets the abs, lower back, hamstring,quads and triceps muscles.",
+    "howTo":"Start in a plank position and keep your body straight. Begin pulling your right knee towards your chest. Maintain plank position. Keep the tension in your abs by pulling them in. Try to bring your knee in as close to the chest as you comfortably can. Once right knee has been pulled in repeat this movement with the other leg. Pull the left knee in and push the right leg out. Alternate these movement by switching between knees in a continuous motion.",
+    "correctForm":"Your hips should not drop nor your back should arch\nPrevent your head from dropping",
+    "tts": [
+      {
+        "text": "Mountain Climbers is a full body exercise which targets shoulder chest and lower ab muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+  {
+    "calories": 15.7456,
+    "display": "Scissors",
+    "id": 24,
+    "turns": "24",
+    "name": "scissors1.gif",
+    "url": "WoNCIBVLbgY",
+    "info":"Scissors is a core exercise that primarily targets abs, hip flexors and transverse abdominis that maintain your stability, posture and balance.",
+    "howTo":"Lying your back with both legs straight, put your hands underneath your lower back core for support. Raise your legs to 45 degree angle, spread them out to the side and then cross one leg over the other in the middle. Then bring them back to starting position completes one repetition.",
+    "correctForm":"Raise your chin towards the chest to engage your upper abs\nPress lower back over the floor",
+    "tts": [
+      {
+        "text": "Scissors strengthens core and lower abs muscles along with hip flexors and quadriceps",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 15.5745,
+    "display": "Plank",
+    "id": 25,
+    "turns": "30 Sec",
+    "name": "plank1.gif",
+    "url": "3FOU8F9LMt0",
+    "info":"Elbow plank is a calisthenics exercise that primarily targets the core abs muscles. It also targets the lower back and shoulders.",
+    "howTo":"Go down to the floor like assuming a push up position. Instead of putting your hands on the floor, rest your body weight on elbow and forearms and keep them flat on the floor. Raise your hips off the floor in such a way that your entire body from head to heals form a straight line. You should feel tension in your core, hamstring and glutes.",
+    "correctForm":"Keep your hips in a flat position not too high not to low. Do not arch your back\nNeck and head position should lie on a straight line",
+    "tts": [
+      {
+        "text": "Plank targets the core and upper abs muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  }
+]

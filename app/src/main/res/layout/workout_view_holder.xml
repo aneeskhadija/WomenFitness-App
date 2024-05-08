@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/day_cardview"
+    android:layout_height="170dp"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifview_workout"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="12dp"
+            android:layout_alignParentEnd="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/gradient"
+            />
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/tv_displayname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="TextView"
+            android:layout_toLeftOf="@id/gifview_workout"
+            android:layout_alignParentLeft="true"
+            android:textAllCaps="true"
+            android:fontFamily="@font/centurygothicregular"
+            android:textColor="@color/textcolorHeader"
+            android:textSize="16sp"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:gravity="center"/>
+
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/turns_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="turns"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:fontFamily="@font/centurygothicregular"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,437 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.newappzone.Femaleworkout2020.womenworkoutathome"
+4    android:versionCode="4"
+5    android:versionName="1.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+11-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:5:5-80
+11-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:6:5-67
+12-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Android package visibility setting -->
+16-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Anees\.gradle\caches\transforms-3\5e62c3fd9da320c792c9d503b5ed3976\transformed\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:24:5-79
+16-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Anees\.gradle\caches\transforms-3\5e62c3fd9da320c792c9d503b5ed3976\transformed\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:24:22-76
+17    <queries>
+17-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Anees\.gradle\caches\transforms-3\5e62c3fd9da320c792c9d503b5ed3976\transformed\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:27:5-43:15
+18
+19        <!-- For browser content -->
+20        <intent>
+20-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Anees\.gradle\caches\transforms-3\5e62c3fd9da320c792c9d503b5ed3976\transformed\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:30:9-36:18
+21            <action android:name="android.intent.action.VIEW" />
+21-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Anees\.gradle\caches\transforms-3\5e62c3fd9da320c792c9d503b5ed3976\transformed\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:31:13-65
+21-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Anees\.gradle\caches\transforms-3\5e62c3fd9da320c792c9d503b5ed3976\transformed\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:31:21-62
+22
+23            <category android:name="android.intent.category.BROWSABLE" />
+23-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Anees\.gradle\caches\transforms-3\5e62c3fd9da320c792c9d503b5ed3976\transformed\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:33:13-74
+23-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Anees\.gradle\caches\transforms-3\5e62c3fd9da320c792c9d503b5ed3976\transformed\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:33:23-71
+24
+25            <data android:scheme="https" />
+25-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Anees\.gradle\caches\transforms-3\5e62c3fd9da320c792c9d503b5ed3976\transformed\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:35:13-44
+25-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Anees\.gradle\caches\transforms-3\5e62c3fd9da320c792c9d503b5ed3976\transformed\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:35:19-41
+26        </intent>
+27        <!-- End of browser content -->
+28        <!-- For CustomTabsService -->
+29        <intent>
+29-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Anees\.gradle\caches\transforms-3\5e62c3fd9da320c792c9d503b5ed3976\transformed\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:39:9-41:18
+30            <action android:name="android.support.customtabs.action.CustomTabsService" />
+30-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Anees\.gradle\caches\transforms-3\5e62c3fd9da320c792c9d503b5ed3976\transformed\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:40:13-90
+30-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Anees\.gradle\caches\transforms-3\5e62c3fd9da320c792c9d503b5ed3976\transformed\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:40:21-87
+31        </intent>
+32        <!-- End of CustomTabsService -->
+33        <package android:name="com.facebook.katana" />
+33-->[com.facebook.android:audience-network-sdk:6.5.1] C:\Users\Anees\.gradle\caches\transforms-3\c30f3a5371f937415313552205a37b4d\transformed\jetified-audience-network-sdk-6.5.1\AndroidManifest.xml:12:9-55
+33-->[com.facebook.android:audience-network-sdk:6.5.1] C:\Users\Anees\.gradle\caches\transforms-3\c30f3a5371f937415313552205a37b4d\transformed\jetified-audience-network-sdk-6.5.1\AndroidManifest.xml:12:18-52
+34    </queries>
+35
+36    <uses-permission android:name="android.permission.WAKE_LOCK" />
+36-->[com.google.android.gms:play-services-measurement-sdk-api:18.0.0] C:\Users\Anees\.gradle\caches\transforms-3\c6ab2c4cdba7f0c08e073128e6ad05a7\transformed\jetified-play-services-measurement-sdk-api-18.0.0\AndroidManifest.xml:25:5-68
+36-->[com.google.android.gms:play-services-measurement-sdk-api:18.0.0] C:\Users\Anees\.gradle\caches\transforms-3\c6ab2c4cdba7f0c08e073128e6ad05a7\transformed\jetified-play-services-measurement-sdk-api-18.0.0\AndroidManifest.xml:25:22-65
+37
+38    <application
+38-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:8:5-56:19
+39        android:name="androidx.multidex.MultiDexApplication"
+40        android:allowBackup="true"
+40-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:9:9-35
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[androidx.core:core:1.5.0] C:\Users\Anees\.gradle\caches\transforms-3\e759884e8e1539e68246ec4d8729cc98\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+42        android:icon="@drawable/logo"
+42-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:10:9-38
+43        android:label="@string/app_name"
+43-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:11:9-41
+44        android:networkSecurityConfig="@xml/network_security_configuration"
+44-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:14:9-76
+45        android:supportsRtl="true"
+45-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:12:9-35
+46        android:theme="@style/AppTheme"
+46-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:13:9-40
+47        android:usesCleartextTraffic="true" >
+47-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:15:9-44
+48        <activity
+48-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:17:9-23:20
+49            android:name="com.newappzone.Femaleworkout2020.womenworkoutathome.activities.MainActivity"
+49-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:18:13-103
+50            android:label="@string/app_name"
+50-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:19:13-45
+51            android:screenOrientation="portrait"
+51-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:21:13-49
+52            android:theme="@style/AppTheme.NoActionBar" >
+52-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:20:13-56
+53        </activity>
+54        <activity android:name="com.newappzone.Femaleworkout2020.womenworkoutathome.activities.SplashScreen" >
+54-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:24:9-30:20
+54-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:24:19-109
+55            <intent-filter>
+55-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:25:13-29:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:26:17-69
+56-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:26:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:28:17-77
+58-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:28:27-74
+59            </intent-filter>
+60        </activity>
+61        <activity android:name="com.newappzone.Femaleworkout2020.womenworkoutathome.activities.MealPlan" />
+61-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:32:9-107
+61-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:32:19-105
+62        <activity android:name="com.newappzone.Femaleworkout2020.womenworkoutathome.activities.DietDetailActivity" />
+62-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:33:9-117
+62-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:33:19-115
+63        <activity android:name="com.newappzone.Femaleworkout2020.womenworkoutathome.activities.SettingsActivity" />
+63-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:34:9-115
+63-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:34:19-113
+64        <activity android:name="com.newappzone.Femaleworkout2020.womenworkoutathome.activities.HistoryCalenderFragment" />
+64-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:35:9-122
+64-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:35:19-120
+65        <activity android:name="com.newappzone.Femaleworkout2020.womenworkoutathome.activities.ReportsBMIactivity" />
+65-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:36:9-117
+65-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:36:19-115
+66        <activity android:name="com.newappzone.Femaleworkout2020.womenworkoutathome.activities.CongratsWorkout" />
+66-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:37:9-114
+66-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:37:19-112
+67        <activity android:name="com.newappzone.Femaleworkout2020.womenworkoutathome.activities.YoutubeVideo" />
+67-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:38:9-111
+67-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:38:19-109
+68        <activity
+68-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:39:9-40:51
+69            android:name="com.newappzone.Femaleworkout2020.womenworkoutathome.activities.ReadyToStart"
+69-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:39:19-109
+70            android:screenOrientation="portrait" />
+70-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:40:13-49
+71        <activity
+71-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:41:9-42:51
+72            android:name="com.newappzone.Femaleworkout2020.womenworkoutathome.activities.WorkoutMainActivity"
+72-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:41:19-116
+73            android:screenOrientation="portrait" />
+73-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:42:13-49
+74
+75        <!-- Register the Alarm Receiver -->
+76        <receiver
+76-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:45:9-50:20
+77            android:name="com.newappzone.Femaleworkout2020.womenworkoutathome.utils.AlarmReceiver"
+77-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:45:19-105
+78            android:enabled="false" >
+78-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:46:13-36
+79            <intent-filter>
+79-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:47:13-49:29
+80                <action android:name="android.intent.action.BOOT_COMPLETED" />
+80-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:48:17-79
+80-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:48:25-76
+81            </intent-filter>
+82        </receiver>
+83
+84        <meta-data
+84-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:52:9-54:51
+85            android:name="com.google.android.gms.ads.APPLICATION_ID"
+85-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:53:13-69
+86            android:value="@string/AdMob_App_ID" />
+86-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:54:13-49
+87
+88        <activity
+88-->[com.google.android.ads:mediation-test-suite:2.0.0] C:\Users\Anees\.gradle\caches\transforms-3\34de7f4602de8f1539956d664a8567b4\transformed\jetified-mediation-test-suite-2.0.0\AndroidManifest.xml:8:9-13:70
+89            android:name="com.google.android.ads.mediationtestsuite.activities.HomeActivity"
+89-->[com.google.android.ads:mediation-test-suite:2.0.0] C:\Users\Anees\.gradle\caches\transforms-3\34de7f4602de8f1539956d664a8567b4\transformed\jetified-mediation-test-suite-2.0.0\AndroidManifest.xml:9:13-93
+90            android:exported="false"
+90-->[com.google.android.ads:mediation-test-suite:2.0.0] C:\Users\Anees\.gradle\caches\transforms-3\34de7f4602de8f1539956d664a8567b4\transformed\jetified-mediation-test-suite-2.0.0\AndroidManifest.xml:10:13-37
+91            android:label="Mediation Test Suite"
+91-->[com.google.android.ads:mediation-test-suite:2.0.0] C:\Users\Anees\.gradle\caches\transforms-3\34de7f4602de8f1539956d664a8567b4\transformed\jetified-mediation-test-suite-2.0.0\AndroidManifest.xml:11:13-49
+92            android:screenOrientation="portrait"
+92-->[com.google.android.ads:mediation-test-suite:2.0.0] C:\Users\Anees\.gradle\caches\transforms-3\34de7f4602de8f1539956d664a8567b4\transformed\jetified-mediation-test-suite-2.0.0\AndroidManifest.xml:12:13-49
+93            android:theme="@style/gmts_TestSuiteTheme.NoActionBar" />
+93-->[com.google.android.ads:mediation-test-suite:2.0.0] C:\Users\Anees\.gradle\caches\transforms-3\34de7f4602de8f1539956d664a8567b4\transformed\jetified-mediation-test-suite-2.0.0\AndroidManifest.xml:13:13-67
+94        <activity
+94-->[com.google.android.ads:mediation-test-suite:2.0.0] C:\Users\Anees\.gradle\caches\transforms-3\34de7f4602de8f1539956d664a8567b4\transformed\jetified-mediation-test-suite-2.0.0\AndroidManifest.xml:14:9-19:63
+95            android:name="com.google.android.ads.mediationtestsuite.activities.NetworkDetailActivity"
+95-->[com.google.android.ads:mediation-test-suite:2.0.0] C:\Users\Anees\.gradle\caches\transforms-3\34de7f4602de8f1539956d664a8567b4\transformed\jetified-mediation-test-suite-2.0.0\AndroidManifest.xml:15:13-102
+96            android:exported="false"
+96-->[com.google.android.ads:mediation-test-suite:2.0.0] C:\Users\Anees\.gradle\caches\transforms-3\34de7f4602de8f1539956d664a8567b4\transformed\jetified-mediation-test-suite-2.0.0\AndroidManifest.xml:16:13-37
+97            android:screenOrientation="portrait"
+97-->[com.google.android.ads:mediation-test-suite:2.0.0] C:\Users\Anees\.gradle\caches\transforms-3\34de7f4602de8f1539956d664a8567b4\transformed\jetified-mediation-test-suite-2.0.0\AndroidManifest.xml:17:13-49
+98            android:theme="@style/gmts_AppSecondaryTheme"
+98-->[com.google.android.ads:mediation-test-suite:2.0.0] C:\Users\Anees\.gradle\caches\transforms-3\34de7f4602de8f1539956d664a8567b4\transformed\jetified-mediation-test-suite-2.0.0\AndroidManifest.xml:18:13-58
+99            android:windowSoftInputMode="stateAlwaysHidden" />
+99-->[com.google.android.ads:mediation-test-suite:2.0.0] C:\Users\Anees\.gradle\caches\transforms-3\34de7f4602de8f1539956d664a8567b4\transformed\jetified-mediation-test-suite-2.0.0\AndroidManifest.xml:19:13-60
+100        <activity
+100-->[com.google.android.ads:mediation-test-suite:2.0.0] C:\Users\Anees\.gradle\caches\transforms-3\34de7f4602de8f1539956d664a8567b4\transformed\jetified-mediation-test-suite-2.0.0\AndroidManifest.xml:20:9-25:73
+101            android:name="com.google.android.ads.mediationtestsuite.activities.ConfigurationItemDetailActivity"
+101-->[com.google.android.ads:mediation-test-suite:2.0.0] C:\Users\Anees\.gradle\caches\transforms-3\34de7f4602de8f1539956d664a8567b4\transformed\jetified-mediation-test-suite-2.0.0\AndroidManifest.xml:21:13-112
+102            android:exported="false"
+102-->[com.google.android.ads:mediation-test-suite:2.0.0] C:\Users\Anees\.gradle\caches\transforms-3\34de7f4602de8f1539956d664a8567b4\transformed\jetified-mediation-test-suite-2.0.0\AndroidManifest.xml:22:13-37
+103            android:label="@string/gmts_ad_unit_details_title"
+103-->[com.google.android.ads:mediation-test-suite:2.0.0] C:\Users\Anees\.gradle\caches\transforms-3\34de7f4602de8f1539956d664a8567b4\transformed\jetified-mediation-test-suite-2.0.0\AndroidManifest.xml:23:13-63
+104            android:screenOrientation="portrait"
+104-->[com.google.android.ads:mediation-test-suite:2.0.0] C:\Users\Anees\.gradle\caches\transforms-3\34de7f4602de8f1539956d664a8567b4\transformed\jetified-mediation-test-suite-2.0.0\AndroidManifest.xml:24:13-49
+105            android:theme="@style/gmts_AppSecondaryTheme.NoActionBar" />
+105-->[com.google.android.ads:mediation-test-suite:2.0.0] C:\Users\Anees\.gradle\caches\transforms-3\34de7f4602de8f1539956d664a8567b4\transformed\jetified-mediation-test-suite-2.0.0\AndroidManifest.xml:25:13-70
+106        <activity
+106-->[com.google.android.ads:mediation-test-suite:2.0.0] C:\Users\Anees\.gradle\caches\transforms-3\34de7f4602de8f1539956d664a8567b4\transformed\jetified-mediation-test-suite-2.0.0\AndroidManifest.xml:26:9-30:73
+107            android:name="com.google.android.ads.mediationtestsuite.activities.ConfigurationItemsSearchActivity"
+107-->[com.google.android.ads:mediation-test-suite:2.0.0] C:\Users\Anees\.gradle\caches\transforms-3\34de7f4602de8f1539956d664a8567b4\transformed\jetified-mediation-test-suite-2.0.0\AndroidManifest.xml:27:13-113
+108            android:exported="false"
+108-->[com.google.android.ads:mediation-test-suite:2.0.0] C:\Users\Anees\.gradle\caches\transforms-3\34de7f4602de8f1539956d664a8567b4\transformed\jetified-mediation-test-suite-2.0.0\AndroidManifest.xml:28:13-37
+109            android:screenOrientation="portrait"
+109-->[com.google.android.ads:mediation-test-suite:2.0.0] C:\Users\Anees\.gradle\caches\transforms-3\34de7f4602de8f1539956d664a8567b4\transformed\jetified-mediation-test-suite-2.0.0\AndroidManifest.xml:29:13-49
+110            android:theme="@style/gmts_AppSecondaryTheme.NoActionBar" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+110-->[com.google.android.ads:mediation-test-suite:2.0.0] C:\Users\Anees\.gradle\caches\transforms-3\34de7f4602de8f1539956d664a8567b4\transformed\jetified-mediation-test-suite-2.0.0\AndroidManifest.xml:30:13-70
+111        <activity
+111-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Anees\.gradle\caches\transforms-3\5e62c3fd9da320c792c9d503b5ed3976\transformed\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:48:9-52:64
+112            android:name="com.google.android.gms.ads.AdActivity"
+112-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Anees\.gradle\caches\transforms-3\5e62c3fd9da320c792c9d503b5ed3976\transformed\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:49:13-65
+113            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+113-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Anees\.gradle\caches\transforms-3\5e62c3fd9da320c792c9d503b5ed3976\transformed\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:50:13-122
+114            android:exported="false"
+114-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Anees\.gradle\caches\transforms-3\5e62c3fd9da320c792c9d503b5ed3976\transformed\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:51:13-37
+115            android:theme="@android:style/Theme.Translucent" />
+115-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Anees\.gradle\caches\transforms-3\5e62c3fd9da320c792c9d503b5ed3976\transformed\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:52:13-61
+116
+117        <provider
+117-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Anees\.gradle\caches\transforms-3\5e62c3fd9da320c792c9d503b5ed3976\transformed\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:54:9-58:39
+118            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+118-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Anees\.gradle\caches\transforms-3\5e62c3fd9da320c792c9d503b5ed3976\transformed\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:55:13-76
+119            android:authorities="com.newappzone.Femaleworkout2020.womenworkoutathome.mobileadsinitprovider"
+119-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Anees\.gradle\caches\transforms-3\5e62c3fd9da320c792c9d503b5ed3976\transformed\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:56:13-73
+120            android:exported="false"
+120-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Anees\.gradle\caches\transforms-3\5e62c3fd9da320c792c9d503b5ed3976\transformed\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:57:13-37
+121            android:initOrder="100" />
+121-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Anees\.gradle\caches\transforms-3\5e62c3fd9da320c792c9d503b5ed3976\transformed\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:58:13-36
+122
+123        <service
+123-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Anees\.gradle\caches\transforms-3\5e62c3fd9da320c792c9d503b5ed3976\transformed\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:60:9-63:40
+124            android:name="com.google.android.gms.ads.AdService"
+124-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Anees\.gradle\caches\transforms-3\5e62c3fd9da320c792c9d503b5ed3976\transformed\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:61:13-64
+125            android:enabled="true"
+125-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Anees\.gradle\caches\transforms-3\5e62c3fd9da320c792c9d503b5ed3976\transformed\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:62:13-35
+126            android:exported="false" />
+126-->[com.google.android.gms:play-services-ads-lite:20.2.0] C:\Users\Anees\.gradle\caches\transforms-3\5e62c3fd9da320c792c9d503b5ed3976\transformed\jetified-play-services-ads-lite-20.2.0\AndroidManifest.xml:63:13-37
+127
+128        <activity
+128-->[com.facebook.android:audience-network-sdk:6.5.1] C:\Users\Anees\.gradle\caches\transforms-3\c30f3a5371f937415313552205a37b4d\transformed\jetified-audience-network-sdk-6.5.1\AndroidManifest.xml:19:9-23:75
+129            android:name="com.facebook.ads.AudienceNetworkActivity"
+129-->[com.facebook.android:audience-network-sdk:6.5.1] C:\Users\Anees\.gradle\caches\transforms-3\c30f3a5371f937415313552205a37b4d\transformed\jetified-audience-network-sdk-6.5.1\AndroidManifest.xml:20:13-68
+130            android:configChanges="keyboardHidden|orientation|screenSize"
+130-->[com.facebook.android:audience-network-sdk:6.5.1] C:\Users\Anees\.gradle\caches\transforms-3\c30f3a5371f937415313552205a37b4d\transformed\jetified-audience-network-sdk-6.5.1\AndroidManifest.xml:21:13-74
+131            android:exported="false"
+131-->[com.facebook.android:audience-network-sdk:6.5.1] C:\Users\Anees\.gradle\caches\transforms-3\c30f3a5371f937415313552205a37b4d\transformed\jetified-audience-network-sdk-6.5.1\AndroidManifest.xml:22:13-37
+132            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+132-->[com.facebook.android:audience-network-sdk:6.5.1] C:\Users\Anees\.gradle\caches\transforms-3\c30f3a5371f937415313552205a37b4d\transformed\jetified-audience-network-sdk-6.5.1\AndroidManifest.xml:23:13-72
+133
+134        <provider
+134-->[com.facebook.android:audience-network-sdk:6.5.1] C:\Users\Anees\.gradle\caches\transforms-3\c30f3a5371f937415313552205a37b4d\transformed\jetified-audience-network-sdk-6.5.1\AndroidManifest.xml:25:9-28:40
+135            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+135-->[com.facebook.android:audience-network-sdk:6.5.1] C:\Users\Anees\.gradle\caches\transforms-3\c30f3a5371f937415313552205a37b4d\transformed\jetified-audience-network-sdk-6.5.1\AndroidManifest.xml:26:13-75
+136            android:authorities="com.newappzone.Femaleworkout2020.womenworkoutathome.AudienceNetworkContentProvider"
+136-->[com.facebook.android:audience-network-sdk:6.5.1] C:\Users\Anees\.gradle\caches\transforms-3\c30f3a5371f937415313552205a37b4d\transformed\jetified-audience-network-sdk-6.5.1\AndroidManifest.xml:27:13-82
+137            android:exported="false" />
+137-->[com.facebook.android:audience-network-sdk:6.5.1] C:\Users\Anees\.gradle\caches\transforms-3\c30f3a5371f937415313552205a37b4d\transformed\jetified-audience-network-sdk-6.5.1\AndroidManifest.xml:28:13-37
+138
+139        <meta-data
+139-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\Anees\.gradle\caches\transforms-3\2cd9a3c0462f5da9047b7e2659d117b8\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
+140            android:name="com.google.android.gms.version"
+140-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\Anees\.gradle\caches\transforms-3\2cd9a3c0462f5da9047b7e2659d117b8\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
+141            android:value="@integer/google_play_services_version" />
+141-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\Anees\.gradle\caches\transforms-3\2cd9a3c0462f5da9047b7e2659d117b8\transformed\jetified-play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
+142
+143        <provider
+143-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:30:9-36:35
+144            android:name="androidx.work.impl.WorkManagerInitializer"
+144-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:31:13-69
+145            android:authorities="com.newappzone.Femaleworkout2020.womenworkoutathome.workmanager-init"
+145-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:32:13-68
+146            android:directBootAware="false"
+146-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:33:13-44
+147            android:exported="false"
+147-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:34:13-37
+148            android:multiprocess="true" />
+148-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:35:13-40
+149
+150        <service
+150-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:38:9-43:35
+151            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+151-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:39:13-88
+152            android:directBootAware="false"
+152-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:40:13-44
+153            android:enabled="@bool/enable_system_alarm_service_default"
+153-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:41:13-72
+154            android:exported="false" />
+154-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:42:13-37
+155        <service
+155-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:44:9-50:35
+156            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+156-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:45:13-84
+157            android:directBootAware="false"
+157-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:46:13-44
+158            android:enabled="@bool/enable_system_job_service_default"
+158-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:47:13-70
+159            android:exported="true"
+159-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:48:13-36
+160            android:permission="android.permission.BIND_JOB_SERVICE" />
+160-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:49:13-69
+161
+162        <receiver
+162-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:52:9-57:35
+163            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+163-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:53:13-88
+164            android:directBootAware="false"
+164-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:54:13-44
+165            android:enabled="true"
+165-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:55:13-35
+166            android:exported="false" />
+166-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:56:13-37
+167        <receiver
+167-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:58:9-68:20
+168            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+168-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:59:13-106
+169            android:directBootAware="false"
+169-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:60:13-44
+170            android:enabled="false"
+170-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:61:13-36
+171            android:exported="false" >
+171-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:62:13-37
+172            <intent-filter>
+172-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:64:13-67:29
+173                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+173-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:65:17-87
+173-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:65:25-84
+174                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+174-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:66:17-90
+174-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:66:25-87
+175            </intent-filter>
+176        </receiver>
+177        <receiver
+177-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:69:9-79:20
+178            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+178-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:70:13-104
+179            android:directBootAware="false"
+179-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:71:13-44
+180            android:enabled="false"
+180-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:72:13-36
+181            android:exported="false" >
+181-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:73:13-37
+182            <intent-filter>
+182-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:75:13-78:29
+183                <action android:name="android.intent.action.BATTERY_OKAY" />
+183-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:76:17-77
+183-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:76:25-74
+184                <action android:name="android.intent.action.BATTERY_LOW" />
+184-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:77:17-76
+184-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:77:25-73
+185            </intent-filter>
+186        </receiver>
+187        <receiver
+187-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:80:9-90:20
+188            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+188-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:81:13-104
+189            android:directBootAware="false"
+189-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:82:13-44
+190            android:enabled="false"
+190-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:83:13-36
+191            android:exported="false" >
+191-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:84:13-37
+192            <intent-filter>
+192-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:86:13-89:29
+193                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+193-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:87:17-83
+193-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:87:25-80
+194                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+194-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:88:17-82
+194-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:88:25-79
+195            </intent-filter>
+196        </receiver>
+197        <receiver
+197-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:91:9-100:20
+198            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+198-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:92:13-103
+199            android:directBootAware="false"
+199-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:93:13-44
+200            android:enabled="false"
+200-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:94:13-36
+201            android:exported="false" >
+201-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:95:13-37
+202            <intent-filter>
+202-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:97:13-99:29
+203                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+203-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:98:17-79
+203-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:98:25-76
+204            </intent-filter>
+205        </receiver>
+206        <receiver
+206-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:101:9-112:20
+207            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+207-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:102:13-88
+208            android:directBootAware="false"
+208-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:103:13-44
+209            android:enabled="false"
+209-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:104:13-36
+210            android:exported="false" >
+210-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:105:13-37
+211            <intent-filter>
+211-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:107:13-111:29
+212                <action android:name="android.intent.action.BOOT_COMPLETED" />
+212-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:48:17-79
+212-->F:\New App Zone\Female Fitness\Source code\WomenFiness\app\src\main\AndroidManifest.xml:48:25-76
+213                <action android:name="android.intent.action.TIME_SET" />
+213-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:109:17-73
+213-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:109:25-70
+214                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+214-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:110:17-81
+214-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:110:25-78
+215            </intent-filter>
+216        </receiver>
+217        <receiver
+217-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:113:9-122:20
+218            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+218-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:114:13-99
+219            android:directBootAware="false"
+219-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:115:13-44
+220            android:enabled="@bool/enable_system_alarm_service_default"
+220-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:116:13-72
+221            android:exported="false" >
+221-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:117:13-37
+222            <intent-filter>
+222-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:119:13-121:29
+223                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+223-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:120:17-98
+223-->[androidx.work:work-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\28a6d1047c23a89850468bd9b4a3efd0\transformed\work-runtime-2.1.0\AndroidManifest.xml:120:25-95
+224            </intent-filter>
+225        </receiver>
+226
+227        <service
+227-->[androidx.room:room-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\c26fde25c399593cf0fe0b139610f7a3\transformed\room-runtime-2.1.0\AndroidManifest.xml:25:9-27:40
+228            android:name="androidx.room.MultiInstanceInvalidationService"
+228-->[androidx.room:room-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\c26fde25c399593cf0fe0b139610f7a3\transformed\room-runtime-2.1.0\AndroidManifest.xml:26:13-74
+229            android:exported="false" />
+229-->[androidx.room:room-runtime:2.1.0] C:\Users\Anees\.gradle\caches\transforms-3\c26fde25c399593cf0fe0b139610f7a3\transformed\room-runtime-2.1.0\AndroidManifest.xml:27:13-37
+230    </application>
+231
+232</manifest>

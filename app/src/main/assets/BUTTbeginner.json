@@ -1,0 +1,306 @@
+[
+  {
+    "calories": 12.05,
+    "display": "High Knees",
+    "id": 1,
+    "turns": "20",
+    "name": "high_knees.gif",
+    "url": "whHxoB-AFYQ",
+    "info": "High knees is a cardiovascular, warm up and a stretching exercise. It targets hip flexors,  hamstrings, quads and abs.",
+    "howTo": "This exercise is similar to running in place. However the only difference is that you try to raise your knees up high. Ideally your knees should come up to 90 degree angle to your body. Keep doing this alternate manner with your arms pumping back and forth.",
+    "correctForm": "Keep looking straight. Do not look down\nRaise your knees at 90 degrees angle to your body",
+    "tts": [
+      {
+        "text": "High Knees is a very good full body cardio vascular exercise very effective for fat burning",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+  {
+    "calories": 12.63,
+    "display": "Squats",
+    "id": 2,
+    "turns": "12",
+    "name": "squats1.gif",
+    "url": "aclHkVaku9U",
+    "info": "",
+    "howTo":"tand with your hands on your hips and feet a little wider than shoulder width apart. Then lower your body until your thighs are parallel to the floor. Your knees should be extended in the same direction as your tiptoes.",
+    "correctForm": "",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+  {
+    "id": 3,
+    "unit": 1,
+    "turns": "12",
+    "calories": 12.63,
+    "display": "Hamstring Stretch",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "name": "hamstring_stretch.gif",
+    "url": "Eg6M42FgDF4",
+    "info": "Shoulder and back stretch is an effective exercise that treats your lower back pain and leg pain.",
+    "howTo": "Stand straight and extend right leg out in front of you in a position where foot heel is on the floor and toe towards the roof. Bend your back leg knee while supporting the knee with both palms. Slowly put weight on back leg knee while straightening your front leg until a stretch is felt in the hamstrings. Hold the stretch then repeat with left leg.",
+    "correctForm": "Keep your knees straight while stretching leg\nKeep your lower back and hips flat",
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Plank Back Kick Left",
+    "id": 4,
+    "turns": "12",
+    "name": "plank_back_kick_left1.gif",
+    "url": "ELJ-14EdAHM",
+    "info": "",
+    "howTo":"Place your hands on the floor with your fingertips pointing towards your lower body and place your feet together.Elevate your body engaging your core muscles to hold yourself steady.Contract your lower abdominal muscles and lift your left leg off the ground to around a 45-degree angle.Lower your left leg back down to the ground before repeating the movement for your right leg.",
+    "correctForm": "",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+  {
+    "calories": 12.63,
+    "display": "Plank Back Kicks Right",
+    "id": 5,
+    "turns": "12",
+    "name": "plank_back_kick_right1.gif",
+    "url": "ELJ-14EdAHM",
+    "info": "",
+    "howTo":"Place your hands on the floor with your fingertips pointing towards your lower body and place your feet together.Elevate your body engaging your core muscles to hold yourself steady.Contract your lower abdominal muscles and lift your right leg off the ground to around a 45-degree angle.Lower your right leg back down to the ground before repeating the movement for your left leg.",
+    "correctForm": "",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+  {
+    "calories": 12.63,
+    "display": "Reverse Plank",
+    "id": 6,
+    "turns": "12",
+    "name": "reverse_plank1.gif",
+    "url": "STCe7-aZ-o8",
+    "info": "",
+    "howTo": "Press into your palms and lift your hips and torso toward the ceiling. Look up to the ceiling, point your toes, and keep your arms and legs straight. Keep your entire body strong and form a straight line from your head to your heels. Squeeze your core and try to pull your belly button back toward your spine",
+    "correctForm": "",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "id": 7,
+    "unit": 1,
+    "turns": "16",
+    "calories": 12.63,
+    "display": "Quadricep Stretch",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "name": "quad_stretch1.gif",
+    "url": "CZBKSOtyssM",
+    "info": "Quadricep stretch is an effective exercise that mainly targets your quads, hip flexors and ankles.",
+    "howTo": "Stand straight and shift your body weight to the left leg. Lift up your right foot, grasp it with your right hand from backside and feel the stretch in your quads by pulling it towards the hip. Hold the stretch then repeat with right leg.",
+    "correctForm": "Take deep breaths while stretching\nGrab the top of your foot with respective hand",
+    "isOnline": false
+  },
+  {
+    "calories": 13.04,
+    "display": "Mountain Climbers",
+    "id": 8,
+    "turns": "20",
+    "name": "mountain_climbers1.gif",
+    "url": "WHtsUjji2YY",
+    "info": "Mountain climber is a very effective full body cardiovascular exercise. It is a compound exercise that targets the abs, lower back, hamstring,quads and triceps muscles.",
+    "howTo": "Start in a plank position and keep your body straight. Begin pulling your right knee towards your chest. Maintain plank position. Keep the tension in your abs by pulling them in. Try to bring your knee in as close to the chest as you comfortably can. Once right knee has been pulled in repeat this movement with the other leg. Pull the left knee in and push the right leg out. Alternate these movement by switching between knees in a continuous motion.",
+    "correctForm": "Your hips should not drop nor your back should arch\nPrevent your head from dropping",
+    "tts": [
+      {
+        "text": "Mountain Climbers is a full body exercise which targets shoulder chest and lower ab muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+  {
+    "calories": 12.4287,
+    "display": "Plank Jacks",
+    "id": 9,
+    "turns": "20",
+    "name": "plank_jacks1.gif",
+    "url": "xcBz0TtHqWI",
+    "info": "Plank jack is cardio exercise that primarily targets abs and strengthens the upper body, lower body and core. This exercise also helps in cardiovascular endurance, accelerate the heart rate and burn more calories.",
+    "howTo": "Get settled in a pushup position and make your body into a straight line from head to toe. Press your toes forcefully into the floor and jump your feets outwards to spread your legs out without moving your torso. Then jump again with your feets and bring your legs back together. Make sure to keep your lower abs tight as you jack your feet.",
+    "correctForm": "Keep your body in straight position, don’t arch your back\nAs you move your legs outwards, don’t allow your torso to rotate.",
+    "tts": [
+      {
+        "text": "Plank Jacks targets core abs hip flexors and calf muscles",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Elevated Split Squat Left",
+    "id": 10,
+    "turns": "18",
+    "name": "elevated_split_squat_left.gif",
+    "url": "fNJbRF_5P4A",
+    "info": "",
+    "howTo":"Begin by placing the top of your right foot on the bench, with your left leg straight. Bend your left knee, engage your right glute, and lower your pelvis toward the ground.Straighten your left leg and rise back up to the starting position. Complete three sets of 10-15 reps on each leg.",
+    "correctForm": "",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Elevated Split Squat Right",
+    "id": 10,
+    "turns": "18",
+    "name": "elevated_split_squat_right.gif",
+    "url": "fNJbRF_5P4A",
+    "info": "",
+    "howTo":"Begin by placing the top of your left foot on the bench, with your right leg straight. Bend your right knee, engage your left glute, and lower your pelvis toward the ground.Straighten your right leg and rise back up to the starting position. Complete three sets of 10-15 reps on each leg.",
+    "correctForm": "",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Donkey Kicks Left",
+    "id": 11,
+    "turns": "18",
+    "name": "donkey_kick_left.gif",
+    "url": "SJ1Xuz9D-ZQ",
+    "info": "",
+    "howTo":"Start on all fours with your knees under your butt and your hands under your shoulders. Then lift your left leg and squeeze your butt as much as you can. Go back to the start position and repeat the exercise.",
+    "correctForm": "",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Donkey Kicks Right",
+    "id": 12,
+    "turns": "18",
+    "name": "donkey_kick_right.gif",
+    "url": "SJ1Xuz9D-ZQ",
+    "info": "",
+    "howTo":"Start on all fours with your knees under your butt and your hands under your shoulders. Then lift your right leg and squeeze your butt as much as you can. Go back to the start position and repeat the exercise.",
+    "correctForm": "",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": false
+  },
+  {
+    "id": 13,
+    "unit": 1,
+    "turns": "12",
+    "calories": 12.63,
+    "display": "Downward Upward Dog",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "name": "downward_upward_dog.gif",
+    "url": "1N5Di9l84Uc",
+    "info": "Downward upward dog is an exercise that primarily targets your back, hamstrings, chest and shoulders.",
+    "howTo": "Start in a plank position with shoulders on the top of your wrists, heels on top of the balls of feet and place feets at shoulders width apart. Lift your hips up without moving your hands or feet that makes downward facing dog pose. Then drive your hips forward towards the floor in a position with pelvis go down towards the floor. Place your hands underneath your shoulders with chest lift and maintain a comfortable height of torso that makes upward facing dog pose.",
+    "correctForm": "Maintain your wrists and elbows straight\nOpen your shoulders and remove all stress from neck",
+    "isOnline": false
+  },
+  {
+    "calories": 12.63,
+    "display": "Plank Back Kick Left",
+    "id": 14,
+    "turns": "16",
+    "name": "plank_back_kick_left1.gif",
+    "url": "ELJ-14EdAHM",
+    "info": "",
+    "howTo":"Place your hands on the floor with your fingertips pointing towards your lower body and place your feet together.Elevate your body engaging your core muscles to hold yourself steady.Contract your lower abdominal muscles and lift your left leg off the ground to around a 45-degree angle.Lower your left leg back down to the ground before repeating the movement for your right leg.",
+    "correctForm": "",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  },
+  {
+    "calories": 12.63,
+    "display": "Plank Back Kicks Right",
+    "id": 15,
+    "turns": "16",
+    "name": "plank_back_kick_right1.gif",
+    "url": "ELJ-14EdAHM",
+    "info": "",
+    "howTo":"Place your hands on the floor with your fingertips pointing towards your lower body and place your feet together.Elevate your body engaging your core muscles to hold yourself steady.Contract your lower abdominal muscles and lift your right leg off the ground to around a 45-degree angle.Lower your right leg back down to the ground before repeating the movement for your left leg.",
+    "correctForm": "",
+    "tts": [
+      {
+        "text": "",
+        "time": "7"
+      }
+    ],
+    "unit": 1,
+    "isOnline": true
+  }
+]
